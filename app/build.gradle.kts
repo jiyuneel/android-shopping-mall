@@ -58,6 +58,12 @@ dependencies {
 
     implementation("io.coil-kt.coil3:coil-compose:3.0.4")
     implementation("io.coil-kt.coil3:coil-network-okhttp:3.0.4")
+
+    implementation("com.squareup.okhttp3:okhttp:4.12.0")
+    implementation("com.squareup.retrofit2:retrofit:2.11.0")
+    implementation("com.squareup.retrofit2:converter-gson:2.11.0")
+
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.10.1")
 }
 
 kapt {
