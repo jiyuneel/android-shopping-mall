@@ -64,6 +64,8 @@ dependencies {
     implementation("com.squareup.retrofit2:converter-gson:2.11.0")
 
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.10.1")
+
+    implementation("androidx.paging:paging-runtime:3.3.5")
 }
 
 kapt {
